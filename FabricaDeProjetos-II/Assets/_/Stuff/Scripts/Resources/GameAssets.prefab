@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1848020400031394
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4660278464350348}
+  - component: {fileID: 114053222545026688}
+  m_Layer: 0
+  m_Name: GameAssets
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4660278464350348
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1848020400031394}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.0506113, y: 11.127766, z: -0.30743352}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114053222545026688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1848020400031394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b803e20a4fd97b45be60489e2bf6f97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ignoreRaycastLayer: 2
+  playerLayer: 10
+  enemyLayer: 11
+  wallLayer: 13
+  doorLayer: 12
+  shieldLayer: 15
+  s_ShootFlash: {fileID: 21300000, guid: ea0c4f661967a46418c1f753f1174c16, type: 3}
+  s_ShieldTransformerDestroyed: {fileID: 21300000, guid: 2c34c7e7baf6e964eb9c6a3c3efaad60,
+    type: 3}
+  s_PistolIcon: {fileID: 21300000, guid: d5caec9ea10840b45bd88d879695faf8, type: 3}
+  s_ShotgunIcon: {fileID: 21300000, guid: 859e3334886b6ea4bb9b130e73362361, type: 3}
+  s_RifleIcon: {fileID: 21300000, guid: 3af7df2c4e5bd3b449bb2e1312466604, type: 3}
+  pfSwordSlash: {fileID: 4449298464342230, guid: 462567ca14cd79e4cb487f6efed6ab29,
+    type: 3}
+  pfEnemy: {fileID: 6122277542945979943, guid: ff8b83b606501b14bb424bdeb027ada6, type: 3}
+  pfEnemyCharger: {fileID: 6122277542945979943, guid: 6f3a07b227692904f896118f2f03cfd6,
+    type: 3}
+  pfEnemyArcher: {fileID: 6122277542945979943, guid: 7f1d0df998a4d974887d554045d38db0,
+    type: 3}
+  pfEnemyFlyingBody: {fileID: 4749081688058082, guid: f2bda9adc6070fb4bb60f2d7835fa4e4,
+    type: 3}
+  pfEnemyShuriken: {fileID: 5998953366765727070, guid: 42a01143c3cf55b429e17e144f0fff35,
+    type: 3}
+  pfImpactEffect: {fileID: 4232540825830159459, guid: 719648f9e37d4df428baf897aab977a7,
+    type: 3}
+  pfDamagePopup: {fileID: 2920174026715650587, guid: d5cbb6859cac94e41a282a83df2e600c,
+    type: 3}
+  pfPickupHealth: {fileID: 4309678702690978716, guid: 15571ddb4e5515a498ab95258e8215ab,
+    type: 3}
+  m_WeaponTracer: {fileID: 2100000, guid: f3f8a9e888e8f7d4d9a9b9c0271d0338, type: 2}
+  m_MarineSpriteSheet: {fileID: 2100000, guid: ab5acf6e79667694d9ceb91aca8abdc3, type: 2}
+  m_DoorRed: {fileID: 2100000, guid: 76ac76d3051722944bc535be6ac58365, type: 2}
+  m_DoorGreen: {fileID: 2100000, guid: 3c91866e0db276c41991cb8b03da8685, type: 2}
+  m_DoorBlue: {fileID: 2100000, guid: c20af2d3913ead640bcd7eefb09bf825, type: 2}
+  m_DoorKeyHoleRed: {fileID: 2100000, guid: 9d32dc647aeec4743be32a9f6eb6f5c7, type: 2}
+  m_DoorKeyHoleGreen: {fileID: 2100000, guid: c036f6e7d39b1c14db8c4680979e4107, type: 2}
+  m_DoorKeyHoleBlue: {fileID: 2100000, guid: 6a273513ad84fb94aa1367003f56d36c, type: 2}
+  m_LineEmissionRed: {fileID: 2100000, guid: ec418c89b94901847b1be819a66d40b7, type: 2}
+  m_LineEmissionYellow: {fileID: 2100000, guid: 70a39edb397fe0d4f897a2e10319d220,
+    type: 2}
+  m_SpritesDefault: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_PlayerWinOutline: {fileID: 2100000, guid: 02a6633a57753904399a28f24bccc142, type: 2}
